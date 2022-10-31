@@ -1,0 +1,253 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+
+header {
+    background-color: black;
+    height: 55px;
+    color: silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.logo {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+
+}
+
+
+.nav-li {
+    color: silver;
+    font-size: 20px;
+    padding-right: 40px;
+    text-decoration: none;
+
+}
+
+.nav-li:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.nav-li:active {
+    color: white;
+}
+.drop-items{
+    display: none;
+    
+}
+.nav-li:hover .drop-item{
+    display: block;
+    position: absoloute;
+}
+
+.login {
+    background-color: whitesmoke;
+    height: 55px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    line-height: 80%;
+    align-items: center;
+}
+
+.login input {
+    height: 30px;
+    margin: 0px 40px;
+    padding: 0px 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.btn1 {
+    height: 37px;
+    border-radius: 5px;
+    border: 2px solid rgb(222, 158, 30);
+    background-color: white;
+}
+
+.btn1:hover {
+    background-color: red;
+    cursor: pointer;
+
+}
+
+.btn1 a {
+    padding: 12px 10px;
+    color: rgb(29, 20, 20);
+    font-size: 20px;
+    font-weight: 400;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-decoration: none;
+
+}
+
+.btn1 a:hover {
+    color: white;
+    font-weight: 500;
+
+}
+
+
+.btn2 {
+    height: 37px;
+    border-radius: 5px;
+    border-style: none;
+    /* border: 2px solid rgb(222, 158, 30); */
+    background-color: blue;
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 40px 0px 0px;
+}
+
+.btn2:hover {
+    background-color: rgb(9, 26, 138);
+}
+
+
+.btn2 a {
+    padding: 12px 10px;
+    color: rgb(29, 20, 20);
+    font-size: 20px;
+    font-weight: 400;
+    /* font-family: serif; */
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.container {
+    height:60vh;
+    width: 100vw;
+    background-image: url("photos/back\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: myanmi;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 20px;
+
+
+}
+
+@keyframes myanmi {
+    0% {
+        background-image: url("photos/back\ \(1\).jpg");
+    }
+
+    35% {
+        background-image: url("photos/11.jpg");
+    }
+
+    75% {
+        background-image: url("photos/12.jpg");
+    }
+}
+
+.wel {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+
+}
+
+.wel p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.container1 {
+
+    width: 1176px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* .container1 h3{
+    text-align: center;
+} */
+
+.container-items {
+    width: 200px;
+    /* border: 1px solid black; */
+    margin: 20px 0px;
+    flex-basis: 23%;
+    text-align: center;
+    box-shadow: 0px 0px 10px 3px lightgrey;
+    padding: 25px 0px;
+}
+
+.container-items img {
+    width: 70px;
+
+}
+
+.container-items h3 {
+    padding: 10px 0px;
+}
+
+.container-items p {
+    font-size: 14px;
+}
+
+.container-items button {
+    padding: 10px;
+    margin: 20px 0px;
+    border-style: none;
+    background-color: rgb(44, 44, 160);
+    color: white;
+    font-weight: 400;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+.container-items:hover {
+    background-color: rgb(33, 187, 87);
+    color: white;
+
+}
+
+.container-items:hover p {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+
+
+footer {
+    display: flex;
+    background-color: whitesmoke;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+

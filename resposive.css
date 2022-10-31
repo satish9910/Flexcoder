@@ -1,0 +1,75 @@
+@media screen and (min-width:600px) and (max-width:1200px) {
+    .container1 {
+        /* justify-content: space-around; */
+        width: 90vw;
+    }
+
+}
+
+.container-items {
+    margin: 20px 7px;
+    /* width: 30vw; */
+    height: 55vh;
+    overflow: hidden;
+}
+
+@media screen and (max-width:600px) {
+    .container1 {
+        flex-direction: column;
+        display: block;
+        position: relative;
+        left: 120px;
+
+
+    }
+
+    .container-items {
+        width: 50vw;
+        height: auto;
+    }
+
+    header {
+        height: 18vh;
+    }
+
+    .logo {
+        position: relative;
+        left: 30vw;
+        bottom: 4vh;
+    }
+
+    ul {
+        position: relative;
+        top: 30px;
+        left: -30%;
+        
+    }
+    .nav-li{
+        display: flex;
+        
+    }
+    .login{
+        display: block;
+        height: 15vh;
+        
+    }
+    .login form{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .login form input{
+        margin: 20px 0px 0px 0px;
+        width: 80%;
+    }
+
+    .btn-container{
+        display:flex;
+        justify-content: center;
+        margin: 20px 0px 20px 50px;
+    }
+    .btn1{
+        margin: 0px 10px 0px -20px;
+    }
+    
+}

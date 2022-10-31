@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    background-color: black;
+    height: 55px;
+    color: silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.logo {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+
+}
+
+
+.nav-li {
+    color: silver;
+    font-size: 20px;
+    padding-right: 40px;
+    text-decoration: none;
+
+}
+
+.nav-li:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.nav-li:active {
+    color: white;
+}
+
+
+h1 {
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.loginpage {
+    width: 1175px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    /* background-color: rgb(208, 194, 194); */
+    border: 1px solid silver;
+    height: 450px;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 3px lightgray;
+
+
+}
+h1{
+    padding: 20px;
+    color: blue;
+    font-family: sans-serif;
+}
+
+form {
+    margin: 25px 20px;
+    text-align:center;
+
+}
+
+.form label {
+    font-family: sans-serif;
+    position: relative;
+    right: 85px;
+    top: 10px;
+}
+.ep{
+    margin-right: 40px;
+}
+form input {
+    margin: 15px 0px 10px 0px;
+    width: 300px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    
+}
+.form-rem{
+    margin: -22px 120px 20px 0px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.btn{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: blue;
+    
+    
+}
+.btn a{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    /* padding: 20px; */
+}
